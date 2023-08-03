@@ -1,3 +1,12 @@
+/* color variables */
+:root {
+  --bg-color: hsl(235, 18%, 26%);
+  --main-bg-color: hsl(0, 0%, 100%);
+  --btn-color: hsl(234, 29%, 20%);
+  --btn-border-color: hsl(231, 7%, 60%);
+  --error-color: hsl(4, 100%, 67%);
+}
+
 body {
   font-size: 16px;
   font-family: Roboto;
