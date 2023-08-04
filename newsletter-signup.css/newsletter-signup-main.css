@@ -20,9 +20,9 @@ body {
   justify-content: center;
 }
 
-.container {
-  background-color: white;
-}
+/* .container {
+  width: 80%;
+} */
 
 main {
   display: flex;
@@ -30,6 +30,7 @@ main {
   align-content: center;
   padding: 1em;
   border-radius: 1.25em;
+  background-color: white;
 }
 
 /* .block {
