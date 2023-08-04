@@ -17,7 +17,25 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
+
+.container {
+  background-color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1em;
+  border-radius: 1.25em;
+}
+
+/* .block {
+  padding: 1em;
+  border-radius: 1.25em;
+} */
 
 .row {
   display: flex;
@@ -26,13 +44,9 @@ body {
   padding: 0 20px;
 }
 
-/* .column {
+.column {
   display: flex;
   flex-direction: column;
-} */
-
-.block {
-  background-color: white;
 }
 
 ul {
