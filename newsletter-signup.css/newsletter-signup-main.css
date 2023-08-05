@@ -31,25 +31,42 @@ main {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  padding: 1em;
-  border-radius: 1.25em;
+  gap: 4rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
   background-color: white;
 }
 
 .row {
   display: flex;
-  width: 100%;
+  width: 80%;
   max-width: 1100px;
   padding: 0 20px;
 }
 
 .column {
   display: flex;
+  gap: 1em;
   flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
+}
+
+span {
+  vertical-align: middle;
+}
+
+.bullet-checkmark {
+  margin-right: 1rem;
 }
 
 .success-popup {
