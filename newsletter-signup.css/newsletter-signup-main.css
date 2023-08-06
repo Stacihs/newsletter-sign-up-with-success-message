@@ -3,7 +3,7 @@
   --bg-color: hsl(235, 18%, 26%);
   --main-bg-color: hsl(0, 0%, 100%);
   --btn-color: hsl(234, 29%, 20%);
-  --btn-border-color: hsl(231, 7%, 60%);
+  --input-border-color: hsl(231, 7%, 60%);
   --error-color: hsl(4, 100%, 67%);
 }
 
@@ -69,8 +69,23 @@ span {
   margin-right: 1rem;
 }
 
+button,
+input {
+  height: 3rem;
+  border-radius: 0.35rem;
+}
+
+input {
+  border-color: var(--input-border-color);
+  color: var(--input-border-color);
+  border: solid 1px;
+  padding-left: 1rem;
+}
+
 button {
-  height: 2.5rem;
+  background-color: var(--btn-color);
+  border: none;
+  color: white;
 }
 
 .success-popup {
