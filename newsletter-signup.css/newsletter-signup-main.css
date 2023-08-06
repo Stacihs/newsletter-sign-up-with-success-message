@@ -2,6 +2,7 @@
 :root {
   --bg-color: hsl(235, 18%, 26%);
   --main-bg-color: hsl(0, 0%, 100%);
+  --text-color: hsl(234, 29%, 20%);
   --btn-color: hsl(234, 29%, 20%);
   --input-border-color: hsl(231, 7%, 60%);
   --error-color: hsl(4, 100%, 67%);
@@ -9,6 +10,7 @@
 
 body {
   font-size: 16px;
+  color: var(--text-color);
   font-family: Roboto;
 }
 
