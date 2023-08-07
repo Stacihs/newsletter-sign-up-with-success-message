@@ -58,8 +58,9 @@ h1 {
   margin: 0;
 }
 
-ul {
+ul.column {
   list-style-type: none;
+  gap: 0.5rem;
   padding: 0;
 }
 
@@ -72,7 +73,7 @@ span {
 }
 
 label {
-  font-weight: 700px;
+  font-weight: bold;
 }
 
 button,
