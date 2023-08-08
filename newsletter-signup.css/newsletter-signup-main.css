@@ -28,7 +28,7 @@ body {
   justify-content: center;
 }
 
-main {
+main#stay-updated {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -93,6 +93,10 @@ button {
   background-color: var(--btn-color);
   border: none;
   color: white;
+}
+
+#bar-graph {
+  height: 90%;
 }
 
 .success-popup {
